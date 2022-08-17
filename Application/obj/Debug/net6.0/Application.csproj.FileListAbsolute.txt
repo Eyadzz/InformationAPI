@@ -1,0 +1,15 @@
+C:\DDDDDDDDDDDDDDDDDDDDDDDD\Zewail\ZewailTask\Application\bin\Debug\net6.0\Application.deps.json
+C:\DDDDDDDDDDDDDDDDDDDDDDDD\Zewail\ZewailTask\Application\bin\Debug\net6.0\Application.dll
+C:\DDDDDDDDDDDDDDDDDDDDDDDD\Zewail\ZewailTask\Application\bin\Debug\net6.0\Application.pdb
+C:\DDDDDDDDDDDDDDDDDDDDDDDD\Zewail\ZewailTask\Application\bin\Debug\net6.0\Domain.dll
+C:\DDDDDDDDDDDDDDDDDDDDDDDD\Zewail\ZewailTask\Application\bin\Debug\net6.0\Domain.pdb
+C:\DDDDDDDDDDDDDDDDDDDDDDDD\Zewail\ZewailTask\Application\obj\Debug\net6.0\Application.csproj.AssemblyReference.cache
+C:\DDDDDDDDDDDDDDDDDDDDDDDD\Zewail\ZewailTask\Application\obj\Debug\net6.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\DDDDDDDDDDDDDDDDDDDDDDDD\Zewail\ZewailTask\Application\obj\Debug\net6.0\Application.AssemblyInfoInputs.cache
+C:\DDDDDDDDDDDDDDDDDDDDDDDD\Zewail\ZewailTask\Application\obj\Debug\net6.0\Application.AssemblyInfo.cs
+C:\DDDDDDDDDDDDDDDDDDDDDDDD\Zewail\ZewailTask\Application\obj\Debug\net6.0\Application.csproj.CoreCompileInputs.cache
+C:\DDDDDDDDDDDDDDDDDDDDDDDD\Zewail\ZewailTask\Application\obj\Debug\net6.0\Application.csproj.CopyComplete
+C:\DDDDDDDDDDDDDDDDDDDDDDDD\Zewail\ZewailTask\Application\obj\Debug\net6.0\Application.dll
+C:\DDDDDDDDDDDDDDDDDDDDDDDD\Zewail\ZewailTask\Application\obj\Debug\net6.0\refint\Application.dll
+C:\DDDDDDDDDDDDDDDDDDDDDDDD\Zewail\ZewailTask\Application\obj\Debug\net6.0\Application.pdb
+C:\DDDDDDDDDDDDDDDDDDDDDDDD\Zewail\ZewailTask\Application\obj\Debug\net6.0\ref\Application.dll
