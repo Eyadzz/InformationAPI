@@ -1,0 +1,32 @@
+﻿version: '3.7'
+
+services:
+  postgres:
+    image: postgres:14.4-alpine
+    container_name: Postgres
+    volumes:
+      - db-data:/data/postgres
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_PASSWORD=admin
+      - POSTGRES_USER=admin
+      - PGDATA=/data/postgres
+    restart: unless-stopped
+    
+  zewail-task:
+    image: eyadzz/zewail_task
+    container_name: ZewailTask
+    ports:
+      - "443:443"
+      - "80:80"
+    environment:
+      - POSTGRES_CONNECTION_STRING=Server=postgres;Database=postgres;Port=5432;User Id=admin;Password=admin
+    restart: unless-stopped
+    depends_on:
+      - "postgres"
+    links:
+      - "postgres"
+
+volumes:
+  db-data:

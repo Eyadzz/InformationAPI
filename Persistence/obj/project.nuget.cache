@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "BGJERYfpNRS5avNA7KMsyajGFMrthg4sqHH1pfUdU4eHB9hQV8Edg8wdOHP2wNQwYh68NGor63K1tlFZYGAMdw==",
+  "dgSpecHash": "5IKcnbgSk9SCAij6w7Z/O+y3yWBmaWvzNpLnYTUXQU5xNl/x2RE5Bs/VcZloMh3W8iG5Or5Uvv5NXwCGAWE9Rw==",
   "success": true,
   "projectFilePath": "C:\\DDDDDDDDDDDDDDDDDDDDDDDD\\Zewail\\ZewailTask\\Persistence\\Persistence.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\eyady\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\eyady\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\eyady\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\eyady\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
     "C:\\Users\\eyady\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
