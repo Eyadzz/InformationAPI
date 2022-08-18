@@ -29,8 +29,8 @@ public class AddInfoHandler : IRequestHandler<AddInfoRequest, int>
         };
         
         var result = await _unitOfWork.Information.Create(information);
-        //category.Information.Add(result);
-        //_unitOfWork.Categories.Update(category);
+        category.Information.Add(result);
+        _unitOfWork.Categories.Update(category);
         await _unitOfWork.Save();
         
         return result.InformationId;
