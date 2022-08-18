@@ -3,6 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{825480C6-38D6-4358-8D8E-36D137F64C20}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{8CAACE88-0817-45BA-9BD9-E163F7F5B8C9}"
+	ProjectSection(SolutionItems) = preProject
+		Dockerfile = Dockerfile
+		.dockerignore = .dockerignore
+		API\docker-compose.yml = API\docker-compose.yml
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{1BC68FF3-9BDF-4210-9CFD-5853F56F6C06}"
 EndProject
@@ -11,6 +16,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{3381FC51-8C5C-492A-9D69-DCBA6B64A5DA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence", "Persistence\Persistence.csproj", "{8B40C917-957B-4A8C-8B47-A1D062CC6584}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{B59938AA-9087-4507-8284-79D0A84B04AB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,10 +37,15 @@ Global
 		{8B40C917-957B-4A8C-8B47-A1D062CC6584}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B40C917-957B-4A8C-8B47-A1D062CC6584}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B40C917-957B-4A8C-8B47-A1D062CC6584}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B59938AA-9087-4507-8284-79D0A84B04AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B59938AA-9087-4507-8284-79D0A84B04AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B59938AA-9087-4507-8284-79D0A84B04AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B59938AA-9087-4507-8284-79D0A84B04AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{825480C6-38D6-4358-8D8E-36D137F64C20} = {8CAACE88-0817-45BA-9BD9-E163F7F5B8C9}
 		{339EA019-4A43-4626-B1E3-5B81B8244EB6} = {1BC68FF3-9BDF-4210-9CFD-5853F56F6C06}
 		{8B40C917-957B-4A8C-8B47-A1D062CC6584} = {3381FC51-8C5C-492A-9D69-DCBA6B64A5DA}
+		{B59938AA-9087-4507-8284-79D0A84B04AB} = {1BC68FF3-9BDF-4210-9CFD-5853F56F6C06}
 	EndGlobalSection
 EndGlobal

@@ -1,8 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "EZRV/xUSDQ4y9V36wcG7xlhWNiu4ieU2JsdrI330xwOyBqDFu9lLgmQ11DNT7L3nVqp85wHdSeq4OmcQVU2zkA==",
+  "dgSpecHash": "x9Q86M/tArr3DatN+4hF/p2spdi6NkvaeOPsbPlQrHk3PLAZ9K4rqI5XqnaC2vR58UT9N2hFp3mSMEiF0EM3XA==",
   "success": true,
   "projectFilePath": "C:\\DDDDDDDDDDDDDDDDDDDDDDDD\\Zewail\\ZewailTask\\Domain\\Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\eyady\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\6.0.8\\microsoft.aspnetcore.jsonpatch.6.0.8.nupkg.sha512",
+    "C:\\Users\\eyady\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\6.0.8\\microsoft.aspnetcore.mvc.newtonsoftjson.6.0.8.nupkg.sha512",
+    "C:\\Users\\eyady\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\eyady\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\eyady\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512"
+  ],
   "logs": []
 }
