@@ -6,7 +6,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{8CAACE88-081
 	ProjectSection(SolutionItems) = preProject
 		Dockerfile = Dockerfile
 		.dockerignore = .dockerignore
-		API\docker-compose.yml = API\docker-compose.yml
+		docker-compose.yml = docker-compose.yml
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{1BC68FF3-9BDF-4210-9CFD-5853F56F6C06}"

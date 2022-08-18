@@ -19,9 +19,9 @@ public class InfoProfile : Profile
             ).ForMember(
                 dest => dest.CategoryId,
                 opt => opt.MapFrom(src => $"{src.CategoryId}")
-            ).ForMember(
+            )/*.ForMember(
                 dest => dest.Category.Name,
                 opt => opt.MapFrom(src => $"{src.CategoryName}")
-            );
+            )*/;
     }
 }

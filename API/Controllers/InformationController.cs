@@ -39,5 +39,4 @@ public class InformationController : ControllerBase
         var result = await _mediator.Send(new GetInfoRequest(){Id = id});
         return Ok(result);
     }
-    
 }

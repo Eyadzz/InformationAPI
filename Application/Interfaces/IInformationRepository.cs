@@ -1,10 +1,10 @@
-﻿using Domain;
+﻿using Application.DTOs;
+using Domain;
 
 namespace Application.Interfaces;
 
 public interface IInformationRepository : IRepository<Information>
 {
-    Task<Information> GetInformationWithCategory(int informationId);
-    Task<Information> Add(Information information);
+    Task<InfoDTO> GetInformationWithCategory(int informationId);
     List<string?> GetByCategory(int categoryId);
 }

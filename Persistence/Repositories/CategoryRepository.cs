@@ -15,10 +15,4 @@ public class CategoryRepository : BaseRepository<Category>, ICategoryRepository
         var result = await Context.Categories.SingleOrDefaultAsync(c => c.Name == categoryName);
         return result!;
     }
-
-    public void Update(Category category)
-    {
-        var model = Context.Categories.Attach(category);
-        model.State = EntityState.Modified;
-    }
 }

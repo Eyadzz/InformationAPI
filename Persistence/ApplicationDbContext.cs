@@ -10,12 +10,15 @@ public class ApplicationDbContext : DbContext
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder);
-        /*modelBuilder.Entity<Information>()
-            .HasOne(c => c.Category)
-            .WithMany(i => i.Information);*/
+        modelBuilder.Entity<Information>()
+            .HasOne<Category>()
+            .WithMany()
+            .HasForeignKey(c => c.CategoryId);
+        
         modelBuilder.Entity<Category>()
             .HasIndex(s => s.Name)
             .IsUnique();
+        
         modelBuilder.Entity<Category>().HasData(
             new List<Category>
             {

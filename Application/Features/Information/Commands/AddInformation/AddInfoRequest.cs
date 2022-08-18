@@ -3,7 +3,7 @@ using MediatR;
 
 namespace Application.Features.AddInformation;
 
-public class AddInfoRequest: IRequest<int>
+public class AddInfoRequest: IRequest<Information>
 {
     public string? Text { get; set; }
     public string? CategoryName { get; set; }
